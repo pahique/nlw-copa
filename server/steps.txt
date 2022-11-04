@@ -1,0 +1,32 @@
+-- SERVER
+
+npm init -y
+npm i typescript -D
+npx tsc --init
+-- mudar para es2020 no package.json
+npm i fastify
+
+npx tsc
+node src/server.js
+
+ou
+
+npx i tsx -D
+-- editar package.json scripts com dev = tsx src/server.ts
+npm run dev
+
+npm i prisma -D
+npm i @prisma/client
+
+npx prisma init --datasource-provider SQLite
+-- editar schema incluindo models
+npx prisma migrate dev
+npx prisma studio
+
+npm i prisma-erd-generator @mermaid-js/mermaid-cli -D
+-- editar schame incluindo generator erd
+npx prisma generate
+
+
+-- CLIENT
+npx create-next-app@latest --use-npm
