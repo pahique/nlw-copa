@@ -27,9 +27,14 @@ npm i prisma-erd-generator @mermaid-js/mermaid-cli -D
 -- editar schame incluindo generator erd
 npx prisma generate
 
+npm i zod
+npm i short-unique-id
+
 
 -- CLIENT
 npx create-next-app@latest --use-npm
+
+npm install -D tailwindcss postcss autoprefixer
 
 
 -- REACT NATIVE
