@@ -30,3 +30,8 @@ npx prisma generate
 
 -- CLIENT
 npx create-next-app@latest --use-npm
+
+-- REACT NATIVE
+npx create-expo-app nlwcopamobile
+-- alterar App.js pra App.tsx
+npx expo start
