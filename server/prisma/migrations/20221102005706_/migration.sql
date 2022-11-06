@@ -1,5 +1,5 @@
 -- CreateTable
-CREATE TABLE "Poll" (
+CREATE TABLE "Pool" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "title" TEXT NOT NULL,
     "code" TEXT NOT NULL,
@@ -7,4 +7,4 @@ CREATE TABLE "Poll" (
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Poll_code_key" ON "Poll"("code");
+CREATE UNIQUE INDEX "Pool_code_key" ON "Pool"("code");
