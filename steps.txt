@@ -29,6 +29,7 @@ npx prisma generate
 
 npm i zod
 npm i short-unique-id
+npm i axios
 
 
 -- CLIENT
