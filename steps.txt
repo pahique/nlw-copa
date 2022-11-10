@@ -51,3 +51,9 @@ npx expo install react-native-safe-area-context@3.3.2
 npx expo install expo-font @expo-google-fonts/roboto
 
 npm i react-native-svg-transformer
+
+npx expo install expo-auth-session expo-random
+npx expo install expo-web-browser
+--acessar console.cloud.google.com e criar projeto e credenciais
+--criar usuario no expo.dev e logar (npx expo login / npx expo whoami)
+
